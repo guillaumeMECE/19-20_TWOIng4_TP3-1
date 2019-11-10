@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "name": "Guillaume",
+      "img": "img/guillaume.png"
+    },
+    {
+      "name": "Anais",
+      "img": "img/anais.png"
+    },
+    {
+      "name": "Paul",
+      "img": "img/paul.png"
+    }
+  ]
+}

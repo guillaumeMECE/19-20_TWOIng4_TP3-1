@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './style.css';
+import data from '../../assets/data.json'
 import Thumbnail from '../thumbnail'
 
 export default class NavUser extends Component {
@@ -31,20 +32,24 @@ export default class NavUser extends Component {
         });
     }
 
-    jumpTo(step) {
-        this.setState({
-            stepNumber: step,
-            xIsNext: (step % 2) === 0,
-        });
+    ReadData() {
+        console.log('data', data);
+        console.log('data', data.users[0]);
     }
 
     render() {
-
+        this.ReadData();
         return (
             <div className="navUser">
-                <Thumbnail />
-                <Thumbnail />
-                <Thumbnail />
+                <Thumbnail
+                    user={data.users[0]}
+                />
+                <Thumbnail
+                    user={data.users[1]}
+                />
+                <Thumbnail
+                    user={data.users[2]}
+                />
             </div>
         );
     }
