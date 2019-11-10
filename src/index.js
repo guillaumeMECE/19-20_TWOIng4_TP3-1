@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Game from './components/game'
+import NavUser from './components/navUser'
 
 ReactDOM.render(
-    <Game />,
+    <NavUser />,
     document.getElementById('root')
 );
