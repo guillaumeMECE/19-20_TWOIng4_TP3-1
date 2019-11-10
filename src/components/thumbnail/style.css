@@ -1,0 +1,14 @@
+.thumbnail {
+  float: right;
+  margin: 9px;
+}
+.thumbnail_img {
+  border-radius: 50%;
+  background-color: #424242;
+  width: 36px;
+  height: 36px;
+  margin: auto;
+}
+.thumbnail_txt {
+  color: #ffffff;
+}
