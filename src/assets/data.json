@@ -1,14 +1,17 @@
 {
   "users": [
     {
+      "id": 0,
       "name": "Guillaume",
       "img": "img/guillaume.png"
     },
     {
+      "id": 1,
       "name": "Anais",
       "img": "img/anais.png"
     },
     {
+      "id": 2,
       "name": "Paul",
       "img": "img/paul.png"
     }
