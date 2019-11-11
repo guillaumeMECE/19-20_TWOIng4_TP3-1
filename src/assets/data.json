@@ -2,17 +2,23 @@
   "users": [
     {
       "id": 0,
-      "name": "Guillaume",
+      "firstname": "Guillaume",
+      "lastname": "Maurin",
+      "birthdate": "19/02/1998",
       "img": "img/guillaume.png"
     },
     {
       "id": 1,
-      "name": "Anais",
+      "firstname": "Anais",
+      "lastname": "Sabrachou",
+      "birthdate": "19/02/1998",
       "img": "img/anais.png"
     },
     {
       "id": 2,
-      "name": "Paul",
+      "firstname": "Paul",
+      "lastname": "Ghazal",
+      "birthdate": "19/02/1998",
       "img": "img/paul.png"
     }
   ]
