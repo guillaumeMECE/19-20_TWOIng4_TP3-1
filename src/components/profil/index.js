@@ -7,12 +7,7 @@ export default class Profil extends Component {
         this.state = {};
     }
 
-    renderUsers(user) {
-        // return <Thumbnail key={user.id} user={user} />;
-    }
-
     render() {
-        // let usersList = data.users.map(this.renderUsers)
 
         return (
             <div className="profil">

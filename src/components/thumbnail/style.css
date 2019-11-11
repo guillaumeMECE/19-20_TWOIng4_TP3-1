@@ -1,13 +1,18 @@
 .thumbnail {
   float: right;
-  margin: 9px;
+  margin: 8px;
   text-align: center;
+  cursor: pointer;
+  color: #f8f8f8;
+}
+.thumbnail:hover {
+  color: #bb86fc;
 }
 .thumbnail_imgBox {
   border-radius: 50%;
   /* background-color: #424242; */
-  width: 36px;
-  height: 36px;
+  width: 37px;
+  height: 37px;
   margin: auto;
 }
 .thumbnail_img {
@@ -17,6 +22,6 @@
   margin: 0;
 }
 .thumbnail_txt {
-  color: #f8f8f8;
+  color: inherit;
   font-size: smaller;
 }
