@@ -9,7 +9,9 @@
   color: #f8f8f8;
 }
 .publication_txt {
-  padding: 10px;
+  padding: 20px;
+  padding-bottom: 50px;
+  word-break: break-all;
 }
 .likeBtn {
   color: #bb86fc;
