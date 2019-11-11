@@ -17,18 +17,18 @@ export default class NavUser extends Component {
         this.setState({ focus: user })
     }
 
-    renderUsers(user) {
-        return <Thumbnail user={user} onClick={() => this.changeFocus(user)} />;
+    renderUsers(user, e) {
+        return <Thumbnail key={Math.random().toString(36).substr(2, 9)} user={user} onClick={() => this.changeFocus(user)} />;
     }
 
-    renderPublications(publication) {
-        return <Publication publication={publication} />;
+    renderPublications(publication, e) {
+        return <Publication key={Math.random().toString(36).substr(2, 9)} publication={publication} />;
     }
 
     render() {
-        let usersList = data.users.map((user) => this.renderUsers(user))
+        let usersList = data.users.map((user, e) => this.renderUsers(user, e))
         console.log('usersList: ', usersList);
-        let publicationsList = this.state.focus.feed.map((publication) => this.renderPublications(publication))
+        let publicationsList = this.state.focus.feed.map((publication, e) => this.renderPublications(publication, e))
         console.log('usersList: ', publicationsList);
 
         return (
