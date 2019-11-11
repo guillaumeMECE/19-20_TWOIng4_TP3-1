@@ -25,9 +25,3 @@ export default class Thumbnail extends Component {
         );
     }
 };
-Thumbnail.defaultProps = {
-    user: {
-        name: 'Default',
-        imgLocal: '../../assets/img/default.png'
-    }
-};
