@@ -13,12 +13,12 @@ export default class Thumbnail extends Component {
         console.log('props', this.props.user);
 
         return (
-            <div className="thumbnail" >
+            <div className="thumbnail" onClick={this.props.onClick}>
                 <div className="thumbnail_imgBox">
                     <img className="thumbnail_img" src={process.env.PUBLIC_URL + this.props.user.img} alt="Default" />
                 </div>
                 <div className="thumbnail_txt">
-                    {this.props.user.name}
+                    {this.props.user.firstname}
                 </div>
 
             </div>
