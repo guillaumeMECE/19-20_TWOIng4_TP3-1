@@ -1,0 +1,29 @@
+.profil {
+  width: 50%;
+  margin: auto;
+  height: 250px;
+  background-color: #424242;
+  margin-top: 50px;
+  box-shadow: 0 10px 20px rgba(48, 48, 48, 0.19),
+    0 6px 6px rgba(48, 48, 48, 0.23);
+  text-align: center;
+}
+.profil_img {
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #bb86fc;
+}
+.profil_info {
+  margin-top: 20px;
+}
+.profil_info_txt {
+  color: #f8f8f8;
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+/* .profil_firstname{
+  width
+} */
