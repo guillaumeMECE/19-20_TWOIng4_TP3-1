@@ -27,13 +27,12 @@ export default class NavUser extends Component {
 
     render() {
         let usersList = data.users.map((user, e) => this.renderUsers(user, e))
-        console.log('usersList: ', usersList);
         let publicationsList = this.state.focus.feed.map((publication, e) => this.renderPublications(publication, e))
-        console.log('usersList: ', publicationsList);
 
         return (
             <div className="navUser">
                 <div className="navbarUser">
+                    <div className="brand">Guillaume Maurin</div>
                     {usersList}
                 </div>
                 <Profil user={this.state.focus} />

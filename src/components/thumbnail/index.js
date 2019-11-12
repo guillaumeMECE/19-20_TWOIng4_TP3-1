@@ -10,7 +10,6 @@ export default class Thumbnail extends Component {
     }
 
     render() {
-        console.log('props', this.props.user);
 
         return (
             <div className="thumbnail" onClick={this.props.onClick}>

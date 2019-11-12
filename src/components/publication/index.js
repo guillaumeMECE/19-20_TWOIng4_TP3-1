@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './style.css';
-import fs from 'fs';
 
 export default class Publication extends Component {
     constructor(props) {
